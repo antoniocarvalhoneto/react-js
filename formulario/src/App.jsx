@@ -1,10 +1,11 @@
-import Cabecalho from "./Cabecalho";
+import FormularioCadastro from "./FormularioCadastro";
 
 function App() {
   return (
-    <div>
-      <Cabecalho />
-    </div>
+    <form>
+      <FormularioCadastro />
+    </form>
   )
 }
+
 export default App;
